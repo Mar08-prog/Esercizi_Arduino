@@ -1,0 +1,31 @@
+int sP=0; //stato pulsante a 0
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(2,INPUT);
+  pinMode(10,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(8,OUTPUT); 	
+}
+
+void loop(){
+  sP=digitalRead(2);
+  while(sP==LOW){
+    digitalWrite(10,LOW);
+    digitalWrite(9,LOW);
+    digitalWrite(8,LOW);
+    sP=digitalRead(2);
+  }
+  digitalWrite(8,HIGH);
+  digitalWrite(9,LOW);
+  digitalWrite(10,LOW);
+  delay(2000);
+  digitalWrite(8,LOW);
+  digitalWrite(9,HIGH);
+  digitalWrite(10,LOW);
+  delay(1000);
+  digitalWrite(8,LOW);
+  digitalWrite(9,LOW);
+  digitalWrite(10,HIGH);
+  delay(2000);  
+}
