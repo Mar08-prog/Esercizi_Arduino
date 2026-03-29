@@ -1,17 +1,44 @@
-# Esercizi_Arduino
-Di seguito i 4 esercizi iniziati in classe svolti con Tinkercad.
-Il primo esercizio consiste nell'usare Arduino per cambiare stato ad un led.
-Il secondo esercizio consiste nell'usare Arduino per implementare un semaforo mediante l'uso di 3 led.
-Il terzo esercizio consiste nell'usare Arduino per implementare un semaforo mediante l'uso di un pulsante e di tre led.
-Il quarto esercizio consiste nell'usare Arduino per implementare quattro semafori, simulando un incrocio.
+#Autore
+*Marco Cauteruccio*
 
-# Componenti usati
-Per i circuiti ho utilizzato:
-- Arduino Uno R3
-- Breadboard piccola
-- Resistenze
+# **Esercizi_Arduino**
+Il progetto realizza 4 esercizi usando Arduino, l'obiettivo è scrivere il codice e implementare il circuito di 4 esercizi dove viene coinvolto Arduino.
+Il contesto è un contesto scolastico di esercitazione all'usare Arduino su un ambiente di sviluppo e allo scrivere codice per il suo funzionamento.
+
+# **Obiettivo**
+L'obiettivo del progetto era imparare a scrivere il codice per risolvere i problemi dati e poi implementare il circuito risolutivo al problema.
+
+# **Componenti o materiali usati**
+I componenti usati per gli esercizi sono:
+- Arduino UNO
+- Resistenza
+- breadboard
+- Led
 - Fili normali
 - Pulsante
-- Led di vari colori
 
+# **Schemi dei progetti**
+![Primo_Esercizio] (desktop/Primo_esercizio.png)
+Primo Esercizio
+![Secondo_Esercizio] (desktop/Secondo_esercizio.png)
+Secondo Esercizio
+![Terzo Esercizio] (desktop/Terzo_esercizio.png)
+Terzo Esercizio
+![Primo_Esercizio] (desktop/Quarto_esercizio.png) 
+Quarto Esercizio
 
+# **Funzionamento**
+Il primo esercizio consiste nell'accensione di un led.
+L'esercizio permette di accendere e spegnere un led, con la possibilità di decidere quanto tempo far passare da uno stato del led all'altro 
+(in questo caso 1 secondo).
+Il secondo esercizio consiste nel simulare il funzionamento di un semaforo.
+L'esercizio simula il comportamento di un semaforo, 
+Il terzo esercizio consiste nel simulare il funzionamento di un semaforo mediante l'uso di un pulsante.
+Il quarto esercizio consiste nel simulare un incrocio, ovvero quattro semafori sincronizzati due a due.
+
+## **File presenti nella directory**
+Nella directory sono presenti le immagini e file di testo con all'interno i codici degli esercizi assegnati.
+
+# **Possibili sviluppi futuri**
+Il progetto può svilupparsi simulando un incrocio a chiamata, quindi con l'aggiunta di pulsanti per il passaggio di pedoni.
+Il progetto può svilupparsi simulando un semaforo che mostri il tempo rimanente prima del cambio di stato di esso.
