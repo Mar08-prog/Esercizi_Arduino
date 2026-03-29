@@ -28,15 +28,17 @@ Terzo Esercizio
 Quarto Esercizio
 
 # **Funzionamento**
-Il primo esercizio consiste nell'accensione di un led.
+Il primo rsocrsesercizio consiste nell'accensione di un led.
 L'esercizio permette di accendere e spegnere un led, con la possibilità di decidere quanto tempo far passare da uno stato del led all'altro 
 (in questo caso 1 secondo).
 Il secondo esercizio consiste nel simulare il funzionamento di un semaforo.
-L'esercizio simula il comportamento di un semaforo, 
+L'esercizio simula il comportamento di un semaforo, con un delay differente per notare meglio il cambiamento di stato tra il rosso e il giallo, un comportamento più vicino alla realtà.
 Il terzo esercizio consiste nel simulare il funzionamento di un semaforo mediante l'uso di un pulsante.
+Il comportamento del semaforo è identico a quello dello scorso esercizio con la differenza che per far funzionare il semaforo c'è bisogno di tenere premuto il pulsante.
 Il quarto esercizio consiste nel simulare un incrocio, ovvero quattro semafori sincronizzati due a due.
+L'esercizio permette di sincronizzare quattro semafori a coppie di due per simulare un incrocio stradale. I led vengono sincronizzati grazie a cicli for in modo che possa avvenire una corretta sincronizzazione.
 
-## **File presenti nella directory**
+# **File presenti nella directory**
 Nella directory sono presenti le immagini e file di testo con all'interno i codici degli esercizi assegnati.
 
 # **Possibili sviluppi futuri**
