@@ -28,7 +28,7 @@ Terzo Esercizio
 Quarto Esercizio
 
 # **Funzionamento**
-Il primo rsocrsesercizio consiste nell'accensione di un led.
+Il primo esercizio consiste nell'accensione di un led.
 L'esercizio permette di accendere e spegnere un led, con la possibilità di decidere quanto tempo far passare da uno stato del led all'altro 
 (in questo caso 1 secondo).
 Il secondo esercizio consiste nel simulare il funzionamento di un semaforo.
